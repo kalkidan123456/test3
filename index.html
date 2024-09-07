@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Furniture Store</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <img src="real logo 1.png" alt="Furniture Store Logo">
+            <h1 class="store-name">AYEHU furniture</h1>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home-section">
+        <h2>Welcome to Our Furniture Store</h2>
+        <p>Discover the finest furniture collections to enhance the beauty of your home.</p>
+        <div class="furniture-gallery">
+            <div class="gallery-item">
+                <img src="bed.jpg" alt="Bed">
+                <h3>Bed</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="kitchen.jpg" alt="Kitchen">
+                <h3>Kitchen</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="dining table 2.jfif" alt="Dining Table">
+                <h3>Dining Table</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="bed cabinate.jfif" alt="Bedroom Drawers">
+                <h3>Bedroom Drawers</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="cloth dre.jfif" alt="Cloth Drawers">
+                <h3>Cloth Drawers</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="sofa black.jfif" alt="Sofa">
+                <h3>Sofa</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="stairs.jpg" alt="Stairs">
+                <h3>Stairs</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>Founded by Yohannes and Adane, our store offers a blend of classic and contemporary furniture to suit any style. We pride ourselves on providing high-quality products and exceptional customer service. Our products are crafted with the highest quality standards, ensuring durability, reliability, and customer satisfaction.</p>
+    <h2>Our Mission</h2>
+    <p>
+        At AYEHU Furniture, our mission is to transform your living spaces into an extension of your personality. We believe that every piece of furniture should tell a story—your story. From luxurious sofas to elegant dining tables, we meticulously design and handcraft every item to ensure that it not only looks stunning but also lasts a lifetime.</p>
+        <h2>Our Values</h2>
+    
+            <li> <b>Quality:</b>  We use only the finest materials and employ time-honored techniques to ensure every piece is crafted to perfection.</li>
+        <li> <b>Customer Focus:</b>  We prioritize our customers' needs, offering personalized service from consultation to delivery.</li>
+        <li> <b>Sustainability: </b> We are committed to environmentally responsible practices, sourcing wood from sustainable forests and using eco-friendly finishes.
+        </li>
+    <h2>Why Choose Us</h2>
+    <p>
+        What sets us apart is our attention to detail and our commitment to innovation. Whether you're looking for modern, minimalist designs or timeless, classic pieces, our collections feature something for every taste and style. Our expert designers and craftsmen work tirelessly to create furniture that is as functional as it is beautiful.</p>
+        
+          </section>
+
+    <!-- Contact Us & Location Section -->
+    <section class="contact-location-section">
+        <h2>Contact Us & Location</h2>
+        <div class="contact-location-container">
+            <div class="contact-info">
+                <p>If you have any questions or need assistance, please fill out the form below or contact us directly at:</p>
+                <p>Email: ayheufurniture@gmail.com</p>
+                <p>Phone: 0911218729</p>
+                <p>Opening hours: Monday to Saturday from 3:00 to 2:00</p>
+                           </div>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.60603888837!2d38.694845482803345!3d9.008349594570817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b87424eca7aaf%3A0x5dc248af395629af!2zQnVyZ2VyaXp6YSB8IEJldGhlbCB8IOGJoOGIreGMiOGIquGLmyB8IOGJpOGJsOGIjQ!5e0!3m2!1sen!2set!4v1725267534088!5m2!1sen!2set" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>&copy; 2024 Furniture Store. All rights reserved.</p>
+    </section>
+
+    <script>
+        // Contact Form Submission
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    if (name && email && phone && message) {
+        alert(`Thank you, ${name}. Your message has been sent successfully!`);
+        // Here you can add your own email sending functionality
+    } else {
+        alert('Please fill in all fields.');
+    }
+});
+
+    </script>
+</body>
+</html>
